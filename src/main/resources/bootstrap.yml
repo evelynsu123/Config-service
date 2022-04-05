@@ -1,0 +1,15 @@
+server:
+  port: 8081
+  
+spring:
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/evelynsu123/config-data.git
+          search-paths:  configs
+          username: evi.3110.ed@gmail.com 
+          password: GithuB123
+  
+    
